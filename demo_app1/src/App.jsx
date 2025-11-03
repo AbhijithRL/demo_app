@@ -16,12 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-
       <h1>Vite + React</h1>
-      <h3>This is branch dev</h3>
-      <h3>This is branch
-        </h3> {/* 👈 Change this text per branch */}
-
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -30,7 +25,6 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
@@ -38,4 +32,4 @@ function App() {
   )
 }
 
-export default App
+export default App
